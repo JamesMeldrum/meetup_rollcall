@@ -21,8 +21,6 @@ define([
     var appView = options.appView;
     var router = new AppRouter(options);
 
-    // Add more routes here as needed
-
     router.on('route:defaultAction', function (actions) {
       require(['views/base/page'], function (DashboardPage) {
         var dashboardPage = Vm.create(appView, 'DashboardPage', DashboardPage);

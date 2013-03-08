@@ -1,0 +1,8 @@
+{
+  "meetup_credentials" :
+    {
+      "api_key" : "4e4615491240203683f137557275e23", 
+      "group_urlname" : ["nylug-meetings","puppetnyc-meetings"]
+    },
+  "_comments" : ["api_key - available from http://www.meetup.com/meetup_api/key/", "group_urlname - the first path segment after the top-level domain in the URL for your meetup group. E.g. group_urlname = nylug-meetings where url = http://www.meetup.com/nylug-meetings/"]
+}

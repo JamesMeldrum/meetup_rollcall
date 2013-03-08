@@ -1,13 +1,11 @@
 require.config({
   paths: {
-    // Major libraries
     jquery: '../libs/jquery/jquery-min',
     underscore: '../libs/underscore/underscore-min', 
     lodash: '../libs/lodash/lodash', // alternative to underscore
     backbone: '../libs/backbone/backbone-min',
-    // Require.js plugins
     text: '../libs/require/text',
-
+    meetup_api_lib: '../libs/meetup_api_lib/meetup_js',
     // Just a short cut so we can put our html outside the js dir
     // When you have HTML/CSS designers this aids in keeping them out of the js directory
     templates: '../../templates'
